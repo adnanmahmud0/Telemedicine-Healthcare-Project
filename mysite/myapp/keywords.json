@@ -1,0 +1,42 @@
+{
+    "greeting": {
+      "keywords": ["Hi","Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Help me"],
+      "response": "How can I help you?"
+    },
+    "Allergies": {
+      "keywords": ["Itchy nose and throat", "Sneezing", "Puffy, watery eyes", "A runny or stuffy nose", "Eye irritation"],
+      "response": "I understand your symptoms. You have allergies, and it is treated.\n1. Avoid the outdoors between 5-10 a.m. and save outside activities for late afternoon or after a heavy rain, when pollen levels are lower.\n2. Keep windows in your living spaces closed to lower exposure to pollen.\n3. To keep cool, use air conditioners and avoid using window and attic fans.\n4. Wear a medical alert bracelet or other means to communicate to others about your allergy in case of a reaction.\n5. Discuss a prescription for epinephrine (e.g., EpiPen) with your healthcare provider, if you have risk of serious allergic reaction.\n6. Review product labels carefully before buying or consuming any item. Know what you are eating or drinking.\n"
+    },
+    "Conjunctivitis - pink eye": {
+      "keywords": ["Eyes redness", "Eyes itching", "Eyes tearing","Eyes burning sensation","Eyes pus-like discharge","Crusting of the eyelids","Whites of eyes appear pink or red","Vision may not be as clear as usual"],
+      "response": "I understand your symptoms. You have Conjunctivitis - pink eye, and it is treated.\n1. Do not rub your eyes.\n2. Use a warm or cool compress to reduce discomfort.\n3. Use a cool wet washcloth to soak off any crusting.\n4. Discard eye make-up because it may cause future infection.\n5. Wash any clothing that may be contaminated, including towels and pillowcases. Try to use clean towels and pillowcases everyday.\n6. Avoid wearing contact lenses and discard current lenses.\n7. Wash your hands frequently to prevent spreading an existing infection to your other eye, and to other people.\n8. If the infection does not improve in 2 or 3 days, make an appointment for re-evaluation.\n"
+    },
+    "Diarrhea": {
+      "keywords": ["Frequent bowel movements", "Cramping or pain in the abdomen & nausea"],
+      "response": "I understand your symptoms. You have Diarrhea, and it is treated.\n1. Avoid foods that are milk-based, greasy, high-fiber, or very sweet because these are likely to aggravate diarrhea.\n2. Avoid caffeine and alcohol.\n3. Don’t drink clear liquids exclusively for more than 24 hours.\n4. Decrease level of exercise until symptoms are gone.\n5. Use over-the-counter lactobacillus acidophilus capsules or tablets. These bacteria help maintain a healthy intestine, and are found in yogurt with live active cultures.\n6. Over-the-counter drugs, such as Imodium A-D, should only be used if absolutely necessary because it is important to let diarrhea flush out the bacteria or parasite that’s causing the infection.\n"
+    },
+    "Worm": {
+      "keywords": ["Abdominal pain", "Weight loss", "Feeling tired", "Anemia", "Viaria", "Epigastric pain"],
+      "response": "I understand your symptoms. You have Worm, and it is treated.\n1. Walking in shoes.\n2. Keeping the surroundings clean.\n3. Avoid contact with domestic animals.\n4. Using shoes in the toilet.\n5. To wash hands thoroughly before eating and after using the toilet\n"
+    },
+    "Malaria": {
+      "keywords": ["Winter with Gray Kapuni", "fever", "Vomiting", "Fatigue", "The whites of the eyes and the nape turn yellow"],
+      "response": "I understand your symptoms. You have Malaria, and it is treated.\n1. Staying away from mosquito bites is the way to get rid of this disease. Always use mosquito nets for this Coils must be used.\n2. Clean dirty water around the house keep\n3. Using pesticides around."
+    },
+    "Infaction": {
+      "keywords": ["Aversion to food occurs","Weight loss","Night sweats"],
+      "response": "I understand your symptoms. You have Infaction, and it is treated.\n1. The patient should be kept in an open environment.\n2. Covering nose and mouth while moving.\n3. The patient should be kept in a separate room and social distancing should be maintained.\n4. The patient's father should develop a nutritious and balanced diet not bought there."
+    },
+    "Cold and Flu": {
+      "keywords": ["Fever","Intense pain and fatigue","Dry cough","Sore throat","A runny or stuffy nose "],
+      "response": "I understand your symptoms. You have Cold and Flu, and it is treated.\n1. Rest more than usual and avoid exercise until symptoms are gone.\n2. Drink lots of clear fluids (e.g., water, tea).\n3. Stay away from cigarette smoke.\n4. Do not take antibiotics unless specifically prescribed for you to cure the illness from which you currently suffer.\n5. Avoid drinking alcohol because it weakens your immune system and may interact with medications.\n6. Avoid caffeine, which can increase congestion and dehydration.\n7. Eat a well-balanced diet, including fruits, vegetables, and grains."
+    },
+    "bye": {
+      "keywords": ["bye","good bye"],
+      "response": "Good bye,Have a nice day."
+    },
+    "thank": {
+      "keywords": ["thanks","thank you"],
+      "response": "Welcome."
+    }
+  }

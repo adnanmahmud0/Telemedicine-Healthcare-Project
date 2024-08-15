@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+      <meta property="og:title" content="DrAi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: #65CCCC;
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="./static/style.css" />
+  <link rel="stylesheet" type="text/css" href="./static/styleT.css">
+</head>
+<body>
+
+       <div>
+      <link href="./static/home.css" rel="stylesheet" />
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
+      ></script>
+
+      <div class="home-container">
+        <div data-modal="practices" class="home-modal">
+          <div class="home-practices">
+            <div class="home-heading">
+              <span class="home-header">Our practices</span>
+              <svg
+                viewBox="0 0 1024 1024"
+                data-close="practices"
+                class="home-close"
+              >
+                <path
+                  d="M225.835 286.165l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.835-225.835 225.835 225.835c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"
+                ></path>
+              </svg>
+            </div>
+            <div class="home-grid">
+              <div class="home-section">
+                <div class="home-heading01">
+                  <span class="home-header01">Find Hospital</span>
+                  <span class="home-caption">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text">Read more</span>
+                  <img
+                    alt="image"
+                    src="static/public/playground_assets/arrow-2.svg"
+                    class="home-image"
+                  />
+                </div>
+              </div>
+              <div class="home-section1">
+                <div class="home-heading02">
+                  <span class="home-header02">Find Blood</span>
+                  <span class="home-caption1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text01">Read more</span>
+                  <img
+                    alt="image"
+                    src="static/public/playground_assets/arrow-2.svg"
+                    class="home-image01"
+                  />
+                </div>
+              </div>
+              <div class="home-section2">
+                <div class="home-heading03">
+                  <span class="home-header03">Medicine details</span>
+                  <span class="home-caption2">
+                    You can find medicine details and what is it use for.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text02">Read more</span>
+                  <img
+                    alt="image"
+                    src="static/public/playground_assets/arrow-2.svg"
+                    class="home-image02"
+                  />
+                </div>
+              </div>
+              <div class="home-section3">
+                <div class="home-heading04">
+                  <span class="home-header04">Pediatrics</span>
+                  <span class="home-caption3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text03">Read more</span>
+                  <img
+                    alt="image"
+                    src="static/public/playground_assets/arrow-2.svg"
+                    class="home-image03"
+                  />
+                </div>
+              </div>
+              <div class="home-section4">
+                <div class="home-heading05">
+                  <span class="home-header05">Nearest Pharmacy</span>
+                  <span class="home-caption4">
+                    Find pharmacy in your native location or get there contact information.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text04">Read more</span>
+                  <img
+                    alt="image"
+                    src="static/public/playground_assets/arrow-2.svg"
+                    class="home-image04"
+                  />
+                </div>
+              </div>
+              <div class="home-section5">
+                <div class="home-heading06">
+                  <span class="home-header06">Call Ambulance</span>
+                  <span class="home-caption5">
+                    Don't need to be panic. Just infrom us which hospital and where you are, the ambulance rady for you.
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text05">Read more</span>
+                  <img
+                    alt="image"
+                    src="static/public/playground_assets/arrow-2.svg"
+                    class="home-image05"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="home-hero">
+          <header data-thq="thq-navbar" class="home-navbar">
+            <div class="home-left">
+              <img
+                alt="image"
+                src="static/components/headerlogo.png"
+                class="home-logo"
+              />
+              <nav class="home-links">
+                <a href="#features" class="home-link">Features</a>
+                <a href="#how-it-works" class="home-link01">How it works</a>
+                <a href="#book" class="home-link02">Appointment</a>
+                <a href="{% url 'chat'%}" class="home-link03">
+                  Search diseases &amp; conditions
+                </a>
+              </nav>
+            </div>
+            <div data-thq="thq-navbar-btn-group" class="home-right">
+              <a href="{% url 'logout'%}" class="home-book button button-main">
+                <span class="home-text06">Logout</span>
+              </a>
+            </div>
+            <div data-thq="thq-burger-menu" class="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="home-icon1">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+              <div
+                data-thq="thq-mobile-menu-nav"
+                data-role="Nav"
+                class="home-nav"
+              >
+                <div class="home-container1">
+                  <img
+                    alt="image"
+                    src="static/public/playground_assets/logo.svg"
+                    class="home-image06"
+                  />
+                  <div data-thq="thq-close-menu" class="home-menu-close">
+                    <svg viewBox="0 0 1024 1024" class="home-icon3">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav
+                  data-thq="thq-mobile-menu-nav-links"
+                  data-role="Nav"
+                  class="home-nav1"
+                >
+                  <span class="home-text07">Features</span>
+                  <span class="home-text08">How it works</span>
+                  <span class="home-text09">Appointment</span>
+                  <span class="home-text10">Search diseases & conditions</span>
+                  <a href="#book" class="home-book button button-main">
+
+                    <span class="home-text11">Book an appointment</span>
+                  </a>
+                </nav>
+              </div>
+            </div>
+          </header>
+
+
+    <h1>Hospital List</h1><br><br>
+  <table>
+    <thead>
+      <tr>
+        <th>Hospital Name</th>
+        <th>Address</th>
+        <th>Contact Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Shahid Suhrawardy Hospital</td>
+        <td>Ser-e-Banglanagar, Collegegate</td>
+        <td>9122560-78</td>
+      </tr>
+      <tr>
+        <td>Ad-Din Hospital</td>
+        <td>Moghbazar, Dhaka</td>
+        <td>9353391-3</td>
+      </tr>
+      <tr>
+        <td>Ahmed Medical Centre Ltd</td>
+        <td>House # 71, Road # 15-A, (New), Dhanmondi C/A</td>
+        <td>8113628</td>
+      </tr>
+      <tr>
+        <td>Aichi Hospital</td>
+        <td>House # 13, Eshakha Avenue Sector # 6, utttara Dhaka</td>
+        <td>89162908920165</td>
+      </tr>
+      <tr>
+        <td>Al Anaiet Adhunik Hospital</td>
+        <td>House # 36, Road # 3, Dhanmondi</td>
+        <td>8631619</td>
+      </tr>
+      <tr>
+        <td>Al- Helal Speacialist Hospital</td>
+        <td>150,Rokeya Sarani Senpara ParbataMirpur-10, Dhaka</td>
+        <td>90068209008181</td>
+      </tr>
+      <tr>
+        <td>Al Jebel-E-Nur Heart Ltd</td>
+        <td>House # 21, Road # 9/A (New),Dhanmondi</td>
+        <td>8117031</td>
+      </tr>
+      <tr>
+        <td>Al- Rajhi Hospital</td>
+        <td>12, Farmgate-1215, Dhaka</td>
+        <td>811922981211729000000</td>
+      </tr>
+      <tr>
+        <td>Al-Ahsraf General Hospital</td>
+        <td>House # 12 Road # 21,Sector # 4,Uttara Dhaka</td>
+        <td>8952851-2</td>
+      </tr>
+      <tr>
+        <td>Al-Biruni Hospital</td>
+        <td>23/1, Khilzee Road, Shyamoli</td>
+        <td>8118905, 9115953</td>
+      </tr>
+      <tr>
+        <td>Al-Fateh Medical Sevices (Pvt) Ltd</td>
+        <td>11, Farmgate over Bridge East Side</td>
+        <td>9120615</td>
+      </tr>
+      <tr>
+        <td>Al-Madina General Hospital (Pvt.) Ltd</td>
+        <td>2/A, Golden Street, Ring Road, Shamoli, Dhaka</td>
+        <td>8118709</td>
+      </tr>
+      <tr>
+        <td>Al-Manar Hospital</td>
+        <td>5/4, Block-F, Lalmatia Dhaka - 1207</td>
+        <td>9121387, 9121588</td>
+      </tr>
+      <tr>
+        <td>Al-Markazul Islami Hospital</td>
+        <td>21/17, Babar Road, Mohammadpur</td>
+        <td>8114980, 9129426</td>
+      </tr>
+      <tr>
+        <td>Al-Mohite General Hospital & Diagnostic Centre</td>
+        <td>House # 11, Road # 2, Shamoli</td>
+        <td>9113831, 9114220 </td>
+      </tr>
+      <tr>
+        <td>Amri Hospitals</td>
+        <td>Kolkata Bangladesh Information Center: C/O R R Trading & Co. Erectors House (10 th Flr.)</td>
+        <td>91252134848</td>
+      </tr>
+      <tr>
+        <td>Kemal Ataturk Avenue</td>
+        <td>Banani C/A, Dhaka - 1213</td>
+        <td>452452075</td>
+      </tr>
+      <tr>
+        <td>Anjuman-E-Mofidul Islam</td>
+        <td>Dhaka</td>
+        <td>9336611</td>
+      </tr>
+      <tr>
+        <td>Appolo Hospital</td>
+        <td>20/5, Babar Road, (Ground Floor), Block # B, Mohammadpur</td>
+        <td>8152549</td>
+      </tr>
+      <tr>
+        <td>Arimo General Hospital</td>
+        <td>Matuil, Deamra Road</td>
+        <td>2445204</td>
+      </tr>
+      <tr>
+        <td>Arogya Niketan Hospital Ltd</td>
+        <td>242-243, New Circular Road, Malibagh</td>
+        <td>9333730</td>
+      </tr>
+      <tr>
+        <td>Aysha Memorial Specialized Hospital</td>
+        <td>74/G, Arjatpara, Mohakhali, Dhaka</td>
+        <td>9122689, 9122690</td>
+      </tr>
+      <tr>
+        <td>B.D.F. Hospital</td>
+        <td>5/7, Humayaun Road, Block # D, Mohammadpur</td>
+        <td>8123730, 8116637</td>
+      </tr>
+      <tr>
+        <td>Bangabandhu Shiekh Mujib Medical University</td>
+        <td>Shabagh, Dhaka</td>
+        <td>8614001-9, 8614545</td>
+      </tr>
+      <tr>
+        <td>Bangal Nursing Home Ltd</td>
+        <td>Lake Circus, Kalabagan, Dhaka</td>
+        <td>9114824</td>
+      </tr>
+      
+    </tbody>
+  </table><br><br><br><br>
+        <div class="home-footer">
+          <div class="home-left1">
+            <div class="home-brand">
+              <img
+                alt="image"
+                src="static/components/footerlogo.png"
+                class="home-image17"
+              />
+              <p class="home-text76">
+                Our platform aims to assist in disease detection, emergency response, and provide information about nearby healthcare facilities and services.
+              </p>
+            </div>
+            <div class="home-socials">
+              <div class="social">
+                <img
+                  alt="image"
+                  src="static/public/playground_assets/insider.svg"
+                  class="home-image18"
+                />
+              </div>
+              <div class="social">
+                <img
+                  alt="image"
+                  src="static/public/playground_assets/instagram.svg"
+                  class="home-image19"
+                />
+              </div>
+              <div class="social">
+                <img
+                  alt="image"
+                  src="static/public/playground_assets/twitter.svg"
+                  class="home-image20"
+                />
+              </div>
+            </div>
+            <div class="home-legal">
+              <span class="home-copyright">
+                © 2022 finbest. All Rights Reserved.
+              </span>
+              <span class="legal-link">Privacy Policy</span>
+              <span class="legal-link">Terms of Use</span>
+            </div>
+          </div>
+          <div class="home-right1">
+            <div class="home-list2">
+              <span class="home-header16">Menu</span>
+              <div class="home-links1">
+                <span class="home-link04">Home</span>
+                <span class="home-link05">About</span>
+                <span class="home-link06">Services</span>
+                <span class="home-link07">Blog</span>
+                <span class="home-link08">Support</span>
+              </div>
+            </div>
+            <div class="home-list3">
+              <span class="home-header17">Resources</span>
+              <div class="home-links2">
+                <span class="home-link09">Test Results</span>
+                <span class="home-link10">Patients</span>
+                <span class="home-link11">Doctors</span>
+                <span class="home-link12">Health</span>
+              </div>
+            </div>
+            <div class="home-list4">
+              <span class="home-header18">Contact</span>
+              <div class="home-links3">
+                <span class="home-link13">
+                  Daffodil Smart City, Birulia-1216, Dhaka
+                </span>
+                <a
+                  href="mailto:contact@template.new?subject=Main"
+                  class="home-link14"
+                >
+                  telemedicine@gmail.com
+                </a>
+                <a href="tel:(004) 234 - 5678" class="home-link15">
+                  +093214175,+88015-68219379
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="home-legal1">
+            <div class="home-row3">
+              <span class="legal-link">Privacy Policy</span>
+              <span class="legal-link">Terms of Use</span>
+            </div>
+            <span class="home-copyright5">
+              © 2023 Telemedicine & Healthcare. All Rights Reserved.
+            </span>
+          </div>
+        </div>
+        <div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+</body>
+</html>
